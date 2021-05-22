@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     padding:5px;
+    background-color: rgb(235, 179, 179);
        
 }
 .container{
@@ -8,9 +9,7 @@ body{
     grid-template-rows: 50px 200px 400px 50px;
     grid-template-columns: repeat(3,400px) 100px;
     grid-gap: 10px;
-    
 
-    
 }
 .header {
     /*overflow: hidden;*/
@@ -18,15 +17,14 @@ body{
     background-color: #b36464;
     grid-row: 1 / 2;
     grid-column: 1 / -1;   
-    
-       
+ 
   }
   
   /* Style the header links */
   .header a {
     float: left;
     color: rgb(68, 8, 8);
-    font-family: 'Itim', cursive;
+    font-family: 'Pattaya', sans-serif;
     text-align: center;
     padding: 12px;
     
@@ -62,14 +60,15 @@ body{
     grid-column: 1 / -1;
     padding: 10px;
 }
-#socialmedia{
+
+.socialmedia{
   text-align: center;
   font-size: 40px;
-  margin: 20px;
+  margin-right: 20px; 
 }
 
-#socialmedia:hover{
-  color:lightseagreen
+.socialmedia :hover{
+  color:dodgerblue
   }
 .skills{
     background-color: #b36464;
@@ -97,5 +96,21 @@ body{
     grid-column: 1 / -1; 
 }
 .footer:hover{
-  color:lightseagreen
+  color:dodgerblue
+}
+
+.contact{
+  background-color: #b36464;
+  font-family: 'Itim', cursive;
+  text-align: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  border: rgb(117, 5, 5) dashed;
+}
+.projects{
+  background-color: #b36464;
+  font-family: 'Itim', cursive;
+  grid-row: 2 / 4;
+  grid-column: 2 / 3;
+  border: rgb(117, 5, 5) dashed;
 }
