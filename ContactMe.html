@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet"href="all.css" />
+  <link rel="stylesheet" href="contact-style.css"/>
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Itim&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
   <title>Contact Me</title>
@@ -14,20 +15,38 @@
 
 <body>
 
-    <div class="container">
-                      
-        <div class="contact">
-          <p>
-           Rafat Fatima
-           <br>
-           Phone: 0333-22446688
-           <br>
-           Email: fatimaxaidi@yahoo.com
-           <br><br><br>
-           <a href="https://www.linkedin.com/in/rafatfatima/">Linkedin</a>
-           <a href="https://web.facebook.com/fatimaxaidi">Facebook</a>
-           <a href="https://www.twitter.com/fatimazaidi">Twitter</a>
-          </p>
 
+   <div id="navbar">
+    <a href="index.html" id="logo">Contact Me</a>
+    <div id="navbar-right">
+      <a href="index.html">Home</a>
+      <a class="active" href="ContactMe.html">Contact</a>
+      <a href="Projects.html">Projects</a>
+    </div>
+  </div>
+
+  <div class="bg-img">
+    <form class="container">
+        
+      <label for="fname"><b>First Name</b></label>
+      <input type="text" placeholder="First Name" name="fname" required>
+
+      <label for="lname"><b>Last Name</b></label>
+      <input type="text" placeholder="Last Name" name="lname">
+
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Email" name="email" required>
+      
+      <label for="ph-number"><b>Phone</b></label>
+      <input type="tel" placeholder="12-34-567-1234567" name="ph-number" pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{7}" requiredrequired>
+
+      <label for="msg"><b>Message</b></label>
+      <textarea id="msg" name="msg" placeholder="Write your concerns here.." style="height:200px"></textarea>
+  
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+  
+  <script src="app-home.js"></script>   
 </body>
 </html>
