@@ -3,19 +3,25 @@
 body { 
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url("testing-1.jpg");
+  background-image: url("banner1.jpg");
   min-height: 900px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  /* opacity: 0.5; */
-  
+  color:lavenderblush
+  /* position: fixed; */
+  /* z-index: 50;
+  opacity: 0.2; */
 }
 
+a{
+
+  color:rgb(221, 126, 200);
+}
 #navbar {
   overflow: hidden;
-  background-color: #ca68bd;
-  padding: 50px 10px; 
+  background-color: rgb(165, 65, 135);
+  padding: 30px 10px; 
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -69,18 +75,24 @@ body {
 }
 
 .footer{
-  background-color: #ca68bd;
+  background-color: rgb(165, 65, 135);
   font-family: 'Itim', cursive;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:40px;
+  width: 100%;
+  color: white;
   text-align: center;
-  padding: 5px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 .footer:hover,.socialmedia :hover{
-color:rgb(151, 8, 108);
+color:black;
 
 }
 
 .socialmedia{
   text-align: center;
-  font-size: 100px;
-  }
+  font-size: 50px;
+}
+
