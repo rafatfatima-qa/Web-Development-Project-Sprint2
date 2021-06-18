@@ -108,7 +108,7 @@ img {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 25px;
+  font-size: 20px;
   padding: 8px 12px;
   position: relative;
   bottom: 8px;
@@ -160,7 +160,22 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+} */
+/*mobile screen*/
+@media screen and (max-width: 767px){
+  .prev, .next, .text, .dot {font-size: 8px}
 }
 
+/*tablet screen*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+  .prev, .next, .text, .dot  {font-size: 8px}
+}
+
+/*desktop screen*/
+@media screen and (min-width: 1024px){
+
+  .prev, .next, .text, .dot  {font-size: 20px}
+}

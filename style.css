@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-image: url("banner1.jpg");
-  min-height: 900px;
+  min-height: 300px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -14,14 +14,17 @@ body {
   opacity: 0.2; */
 }
 
+
 a{
 
-  color:rgb(221, 126, 200);
+  color:rgb(201, 162, 189);
 }
+
+
 #navbar {
   overflow: hidden;
-  background-color: rgb(165, 65, 135);
-  padding: 30px 10px; 
+  background-color: rgb(201, 162, 189);
+  padding: 10px 10px; 
   transition: 0.4s;
   position: fixed;
   width: 100%;
@@ -35,13 +38,13 @@ a{
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
+  font-size: 15px; 
+  line-height: 10px;
   border-radius: 4px;
 }
 
 #navbar #logo {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
   transition: 0.4s;
 }
@@ -51,10 +54,10 @@ a{
   color: black;
 }
 
-#navbar a.active {
-  background-color: dodgerblue;
+/* #navbar a.active {
+  background-color: rgb(175, 208, 241);
   color: white;
-}
+} */
 
 #navbar-right {
   float: right;
@@ -75,24 +78,26 @@ a{
 }
 
 .footer{
-  background-color: rgb(165, 65, 135);
+  background-color: rgb(201, 162, 189);
   font-family: 'Itim', cursive;
+  font-size:medium;
   position: fixed;
   left: 0;
   bottom: 0;
   height:40px;
   width: 100%;
-  color: white;
+  color: rgb(7, 7, 7);
   text-align: center;
   /* margin: 10px; */
 }
 .footer:hover,.socialmedia :hover{
-color:black;
+color:rgb(245, 241, 241);
 
 }
 
 .socialmedia{
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
+  color: black;
 }
 

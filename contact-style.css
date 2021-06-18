@@ -1,5 +1,5 @@
 body, html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(120, 201, 238);
   }
   
@@ -25,7 +25,7 @@ body, html {
   .container {
     position: absolute;
     right: 0;
-    margin: 120px 10px 100px 500px; /*top right bottom left*/
+    margin: 70px 10px 100px 500px; /*top right bottom left*/
     max-width: 500px;
     padding: 10px;
     border-radius: 10px;
@@ -70,6 +70,7 @@ body, html {
     padding: 16px 20px;
     border: none;
     border-radius: 10px;
+    box-shadow: 0.1px #888888;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
@@ -82,7 +83,7 @@ body, html {
 
   textarea,input, label{
 
-    font:xx-large;
+    font:x-large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
